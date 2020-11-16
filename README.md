@@ -14,11 +14,18 @@ https://drive.google.com/drive/u/0/folders/196BlFjALD0i2ctpBZFdfa95YX8vj2QLP
 * https://batdongsan.com.vn/
 
 ## Entity
-* Vị trí
-* Diện tích
-* Giá
+* Giá (triệu/tháng)
+* Vị trí: Quận one hot
+* Khoảng cách tới trung tâm HN (tính theo phường)
+* Diện tích (m2)
 * Số Phòng ngủ
-* Số phòng khách
-* Loại Phòng
-* Nội Thất
-* Chỗ để xe
+* Loại Phòng -> [ccmn, phòng trọ nhà dân, homestay]
+* vệ sinh khép kín
+* điều hòa
+* nóng lạnh
+* đồ đạc (tủ, giường, full đồ, tivi, đồ đạc đầy đủ, nội thất...)
+* Chỗ để xe: 1 có, 0 không có
+* Số lượng tòa nhà, chung cư trong bán kính R
+* Khoảng cách tới trường ĐH lớn gần nhất (hoặc có trường đại học trong phạm vi R)
+* Khoảng cách tới trạm xe bus gần nhất
+* Số lượng tiện ích trong bán kính R (siêu thị, tạp hóa, TTTM, chợ, công viên, atm, quán cafe...)
