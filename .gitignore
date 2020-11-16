@@ -2,3 +2,5 @@
 .vscode
 *.jl
 datasets
+env
+csv
