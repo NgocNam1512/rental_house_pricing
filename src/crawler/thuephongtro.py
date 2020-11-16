@@ -38,7 +38,8 @@ class HousePrices(scrapy.Spider):
             'Địa chỉ:': 'location',
             'Chuyên mục:': 'kind',
             'Diện tích:': 'area',
-            'Giá cho thuê:': 'price'
+            'Giá cho thuê:': 'price',
+            'Ngày cập nhật:': 'date'
         }
         main_obj = {
             'description': description

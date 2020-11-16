@@ -34,16 +34,28 @@ class HousePrices(scrapy.Spider):
         price_css, area_css = response.css('.short-detail-wrap ul li span.sp2')[:2]
         location = ''
         kind = ''
+        date = ''
         for e in response.css('.box-round-grey3 div.row-1'):
             if 'Địa chỉ:' in e.css('span.r1::text').get():
                 location = e.css('span.r2::text').get()
             if 'Loại tin đăng:' in e.css('span.r1::text').get():
                 kind = e.css('span.r2::text').get()
+        label = None
+        for e in response.css('.product-config.pad-16 ul li'):
+            for s in e.css('span'):
+                txt = s.css('::text').get()
+                if label is not None:
+                    date = txt
+                    label = None
+                if txt == 'Ngày đăng:':
+                    label = txt
+                
         yield {
             'price': price_css.css('span.sp2::text').get(),
             'area': area_css.css('span.sp2::text').get(),
             'title': title,
             'location': location,
             'type': kind,
-            'description': description
+            'description': description,
+            'date': date
         }
