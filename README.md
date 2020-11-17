@@ -36,5 +36,5 @@ https://drive.google.com/drive/u/0/folders/1-Yo5BWsVeleylpayKqEuI_-RFvMX6Pvx
 
 Ghi chú: 1 có, 0 không có
 
-## Sample Data:
+## Sample Extracted Data:
 https://drive.google.com/drive/folders/12_BPZofm-8Jeu9CQoHILuOXps_Bj-m8E?usp=sharing
