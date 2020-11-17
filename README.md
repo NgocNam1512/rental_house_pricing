@@ -29,9 +29,8 @@ https://drive.google.com/drive/u/0/folders/1-Yo5BWsVeleylpayKqEuI_-RFvMX6Pvx
 * Furnish: (bool) Có sẵn any(tủ, giường, full đồ, tivi, đồ đạc đầy đủ, nội thất...)
 * Parking_slot: (bool) Có chỗ để xe? 
 * Num_buildings_nearby: (float) Số lượng tòa nhà, chung cư trong bán kính R
-* Num_conv_nearby: (float) Số lượng tiện ích trong bán kính R (siêu thị, tạp hóa, TTTM, chợ, công viên, atm, quán cafe...)
+* Num_conv_nearby: (float) Số lượng tiện ích trong bán kính R (công viên, siêu thị, tạp hóa, TTTM, chợ, công viên, atm, quán cafe...)
 * Dis_university: (float) Khoảng cách tới trường ĐH lớn gần nhất (hoặc có trường đại học trong phạm vi R)
-* Dis_bus: (float) Khoảng cách tới trạm xe bus gần nhất
 * Source: nguồn, ví dụ: 'thuephongtro'
 
 Ghi chú: 1 có, 0 không có
