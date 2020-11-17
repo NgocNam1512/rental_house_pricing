@@ -3,4 +3,5 @@
 *.jl
 datasets
 env
-csv
+*.csv
+*test*
