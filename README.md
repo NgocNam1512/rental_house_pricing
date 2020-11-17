@@ -33,3 +33,4 @@ https://drive.google.com/drive/u/0/folders/1-Yo5BWsVeleylpayKqEuI_-RFvMX6Pvx
 * Khoảng cách tới trường ĐH lớn gần nhất (hoặc có trường đại học trong phạm vi R)
 * Khoảng cách tới trạm xe bus gần nhất
 * Số lượng tiện ích trong bán kính R (siêu thị, tạp hóa, TTTM, chợ, công viên, atm, quán cafe...)
+* Nguồn tin
